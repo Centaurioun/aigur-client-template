@@ -2,11 +2,12 @@
 # yarn lockfile v1
 
 
-"@aigur/client@^0.35.0":
-  version "0.35.0"
-  resolved "https://registry.yarnpkg.com/@aigur/client/-/client-0.35.0.tgz#cb5fdae889c58b49af84af3ed07802dedd486f87"
-  integrity sha512-xfU9xK/aXggQSfkkaZwHvaPjpH8USD0UxIuhh9W+QtVjuR2f8d85d70BG32Y0FsNfPZXT9Ctyq6lFzk2nUlTww==
+"@aigur/client@^1.0.0":
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/@aigur/client/-/client-1.9.3.tgz#f53a9c0674815245e23b04c733064145682872db"
+  integrity sha512-ymd5OTA9VBOnzwyNTHsNzrG0tufTKbOZAcbHv97GXvR6qShTdWeRmV2iBxx0twPgVQrmVcYWbIz1GBWJZrNY3A==
   dependencies:
+    "@huggingface/inference" "^1.5.2"
     eventsource-parser "^0.1.0"
     form-data "^4.0.0"
     zod "^3.20.2"
@@ -32,6 +33,11 @@
     js-yaml "^4.1.0"
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
+
+"@huggingface/inference@^1.5.2":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@huggingface/inference/-/inference-1.6.0.tgz#9bc6cd51e589560d0622d614375e2fc29226a751"
+  integrity sha512-j8feaIZp3ED4N98eb3szhYcp67pvwOCPZIkA9Ao4RCN5MPX+zUxOWP95ozhdUbQiAdyVNCB0UGoCpQywTgD8Aw==
 
 "@humanwhocodes/config-array@^0.11.8":
   version "0.11.8"
